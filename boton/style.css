@@ -1,0 +1,21 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #06047c;
+    color: rgb(199, 204, 43);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button--active {
+    background-color: #ce1b9b;
+}
+.button__icon {font-size: 80px;
+}
+.button__text {font-size: 80px;
+}
